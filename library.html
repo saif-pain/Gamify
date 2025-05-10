@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gamer's Gallery - Library</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        html, body {
+            height: 100%;
+            margin: 0;
+        }
+        body {
+            display: flex;
+            flex-direction: column;
+        }
+        .background-section {
+            background-image: url('https://wallpapers.com/images/high/intense-gaming-experience-in-purple-lights-lllu054n2xg871b0.webp');
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center;
+            flex: 1;
+            display: flex;
+            flex-direction: column;
+        }
+        .content {
+            flex: 1;
+            padding: 20px 0; 
+        }
+        .navbar {
+            margin-bottom: 20px;
+        }
+        .game-card {
+            margin-bottom: 20px;
+        }
+        .footer {
+            background: #333;
+            color: white;
+            text-align: center;
+            padding: 10px;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand" href="#">GAMIFY</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="index.html">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="store.html">Store</a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link" href="library.html">Library</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="profile.html">Profile</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Background Section -->
+    <div class="background-section">
+        <!-- Game Section -->
+        <div class="container content">
+            <div class="row">
+                <div class="col-lg-4 col-md-6 game-card">
+                    <div class="card">
+                        <img src="https://cdn.cloudflare.steamstatic.com/steam/apps/2208920/capsule_616x353.jpg?t=1697654233" class="card-img-top" alt="Game 1">
+                        <div class="card-body">
+                            <h5 class="card-title">Assassin'S Creed Valhalla </h5>
+                            <p class="card-text">Action Adventure Stealth.</p>
+                            <a href="#" class="btn btn-primary">Play Now</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 game-card">
+                    <div class="card">
+                        <img src="https://cdn2.unrealengine.com/ea-sports-fifa-23-is-coming-to-the-epic-games-store-1920x1080-398e19351a82.jpg" class="card-img-top" alt="Game 2">
+                        <div class="card-body">
+                            <h5 class="card-title">FIFA 23</h5>
+                            <p class="card-text">Sports.</p>
+                            <a href="#" class="btn btn-primary">Play Now</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 game-card">
+                    <div class="card">
+                        <img src="https://image.api.playstation.com/vulcan/ap/rnd/202010/0222/b3iB2zf2xHj9shC0XDTULxND.png" class="card-img-top" alt="Game 3">
+                        <div class="card-body">
+                            <h5 class="card-title">Ghost Of Tsushima</h5>
+                            <p class="card-text">Brief description of the game.</p>
+                            <a href="#" class="btn btn-primary">Play Now</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Footer -->
+        <div class="footer">
+            <p>&copy; 2024 Epic Games Store. All rights reserved.</p>
+        </div>
+    </div>
+
+    <!-- Scripts -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>

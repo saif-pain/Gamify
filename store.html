@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gamer's Gallery - Store</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        html, body {
+            height: 100%;
+            margin: 0;
+        }
+        body {
+            display: flex;
+            flex-direction: column;
+        }
+        .background-section {
+            background-image: url('https://wallpapers.com/images/high/intense-gaming-experience-in-purple-lights-lllu054n2xg871b0.webp');
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center;
+            flex: 1;
+            display: flex;
+            flex-direction: column;
+        }
+        .content {
+            flex: 1;
+            padding: 20px 0; /* Optional: add some padding */
+        }
+        .navbar {
+            margin-bottom: 20px;
+        }
+        .game-card {
+            margin-bottom: 20px;
+        }
+        .footer {
+            background: #333;
+            color: white;
+            text-align: center;
+            padding: 10px;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand" href="#">GAMIFY</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="index.html">Home</a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link" href="store.html">Store</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="library.html">Library</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="profile.html">Profile</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Background Section -->
+    <div class="background-section">
+        <!-- Game Section -->
+        <div class="container content">
+            <div class="row">
+                <div class="col-lg-4 col-md-6 game-card">
+                    <div class="card">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSh_A33_DeTp-dqEeOq9DDAANdmw7qNQwyRGSdJ-2oYeQ&s" class="card-img-top" alt="Game 1">
+                        <div class="card-body">
+                            <h5 class="card-title">Alan Wake 2 </h5>
+                            <p class="card-text">Fighting Action Mystery Supernatural.</p>
+                            <a href="#" class="btn btn-primary">Buy Now</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 game-card">
+                    <div class="card">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRUKTbWgspoBsQ4BEajAARawroEGjshPHR-OVOeTcZWEg&s" class="card-img-top" alt="Game 1">
+                        <div class="card-body">
+                            <h5 class="card-title">2k23</h5>
+                            <p class="card-text">Fighting Action.</p>
+                            <a href="#" class="btn btn-primary">Buy Now</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 game-card">
+                    <div class="card">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSZqCsLcpSZCbgR9u3tSiancHHGNatYIAk1J1TvAlo3wg&s" class="card-img-top" alt="Game 2">
+                        <div class="card-body">
+                            <h5 class="card-title">Legends Of ZELDA</h5>
+                            <p class="card-text">Action Adventure.</p>
+                            <a href="#" class="btn btn-primary">Buy Now</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 game-card">
+                    <div class="card">
+                        <img src="https://www.callofduty.com/content/dam/atvi/callofduty/cod-touchui/store/games/wz/overview/WZPLP_Hero.webp" class="card-img-top" alt="Game 1">
+                        <div class="card-body">
+                            <h5 class="card-title">Call Of Duty Warzone </h5>
+                            <p class="card-text">Fighting Action Strategy.</p>
+                            <a href="#" class="btn btn-primary">Buy Now</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 game-card">
+                    <div class="card">
+                        <img src="https://www.nintendo.com/eu/media/images/10_share_images/games_15/wii_24/SI_Wii_TheSims3_enGB_image1600w.jpg" class="card-img-top" alt="Game 2">
+                        <div class="card-body">
+                            <h5 class="card-title">The Sims 3</h5>
+                            <p class="card-text">Action Adventure World Building.</p>
+                            <a href="#" class="btn btn-primary">Buy Now</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 game-card">
+                    <div class="card">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRS2VPC7JoYps6qzEJ149acdaZWT2p2a9rwW-GUbWkB-g&s" class="card-img-top" alt="Game 3">
+                        <div class="card-body">
+                            <h5 class="card-title">Valorant</h5>
+                            <p class="card-text">Action Compitetive Teamwork.</p>
+                            <a href="#" class="btn btn-primary">Buy Now</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 game-card">
+                    <div class="card">
+                        <img src="https://cdn.cloudflare.steamstatic.com/steam/apps/108710/capsule_616x353.jpg?t=1667485381" class="card-img-top" alt="Game 1">
+                        <div class="card-body">
+                            <h5 class="card-title">Alan Wake 1 </h5>
+                            <p class="card-text">Fighting Action Mystery Supernatural.</p>
+                            <a href="#" class="btn btn-primary">Buy Now</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 game-card">
+                    <div class="card">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ1kXvT49GkyMTSKnToUzqBcy3-8fwHZHLKy4BLBWkaLA&s" class="card-img-top" alt="Game 1">
+                        <div class="card-body">
+                            <h5 class="card-title">Outlast</h5>
+                            <p class="card-text">Horror.</p>
+                            <a href="#" class="btn btn-primary">Buy Now</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 game-card">
+                    <div class="card">
+                        <img src="https://cdn.cloudflare.steamstatic.com/steam/apps/2050650/header.jpg?t=1707455805" class="card-img-top" alt="Game 1">
+                        <div class="card-body">
+                            <h5 class="card-title">Resident Evil 4</h5>
+                            <p class="card-text">Fighting Action Zombie Apoclypse.</p>
+                            <a href="#" class="btn btn-primary">Buy Now</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <div class="footer">
+        <p>&copy; 2024 Gamers's Gallery. All rights reserved.</p>
+    </div>
+
+    <!-- Scripts -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
